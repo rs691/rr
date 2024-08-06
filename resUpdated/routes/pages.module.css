@@ -1,0 +1,59 @@
+
+h1{
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: green;
+  
+    
+}
+.tilted {
+    width: 400px;
+    height: 500px;
+    border: 1px solid white; 
+   margin: 20px;
+    padding: 20px;
+    transform: rotate(5deg);
+  }
+  .tilted3 {
+    color: white;
+    width: 400px;
+    height: 250px;
+    border: 3px solid yellow; 
+   margin: 5px 5px 9px 50px;
+    transform: rotate(-15deg);
+    z-index: 7;
+    background-color: brown;
+  }
+
+  .tilted4 {
+    color: white;
+    width: 400px;
+    height: 250px;
+    border: 3px solid yellow; 
+   margin: 5px 5px 9px 30px;
+    transform: rotate(15deg);
+    z-index: 7;
+    background-color: blue;
+  }
+  .card {
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .wrapper{
+    display: flex;
+
+  }
+  
