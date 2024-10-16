@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wdth,wght@0,50..150,100..900;1,50..150,100..900&display=optional");
 body {
   margin: 0;
 }
@@ -12,10 +12,7 @@ nav {
   box-sizing: border-box;
 }
 
-.nav05 {
-  background-color: black;
-  
-}
+
 
 nav::before {
   position: absolute;
@@ -23,7 +20,8 @@ nav::before {
   left: 0;
   width: 100%;
   color: #fff;
-  font: 400 24px/1 'Lato', sans-serif;
+  font: 400 24px/1 'Anybody', sans-serif;
+ 
   text-align: center;
 }
 
@@ -50,7 +48,8 @@ nav ul li:not(:first-child) {
   border-left: none;
 }
 nav ul li:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  background: linear-gradient(90deg, #001F3F 3%, #3992FF  50%, #001F3F 95%);
 }
 nav ul li a {
   display: inline-block;
@@ -80,11 +79,6 @@ nav ul ul ul {
   left: 100%;
 }
 
-
-/* DEMO #5 */
-.nav05 ul li {
-  perspective: 300px;
-}
 .nav05 ul ul {
   visibility: hidden;
   opacity: 0;
@@ -92,6 +86,13 @@ nav ul ul ul {
   transform: rotateX(-90deg) rotateY(0);
   transform-origin: 0 0;
 }
+
+
+
+.nav ul li {
+  perspective: 300px;
+}
+
 .nav05 ul ul li {
   perspective: 1500px;
 }

@@ -14,7 +14,7 @@ const NavItem = ({ item }) => {
         <li>
             {item.children ? (
                 <>
-                    <NavLink to={item.href} activeclasscame="active">
+                    <NavLink to={item.href} activeclassname="active">
                         {item.text}
                     </NavLink>
                     <ul>

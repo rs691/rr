@@ -62,25 +62,12 @@ const Contact = () => {
     </div>
     <div className={styles.tilted}>
       1
-  
   </div>
-  <div className={styles.tilted4}>
-   2
-  </div>
-  <div className={styles.tilted3}>
-   3
-  </div>
-<div className={styles.wrapper}>
-  <div className={styles.tilted4}>
-   4
-  </div>
-  <div className={styles.tilted4}>
-   4
-  </div>
-  </div>
-  <div className={styles.tilted3}>
-   5
-  </div>
+  <div className={styles.card}>
+    card
+    </div>
+
+
 
   </>
   );
